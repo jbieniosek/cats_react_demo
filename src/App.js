@@ -1,19 +1,13 @@
 import './App.css';
 import React from 'react';
-import timelineData from './data/timeline.json';
-import Timeline from './components/Timeline';
+import CATS_DATA from './data/cats.json';
+import CatList from './components/CatList';
+
 
 function App() {
-  console.log('The value of timelineData is', timelineData);
-  console.log('We should use timelineData in our project somehow...');
-
+    //console.log(CATS_DATA);
   return (
-    <React.Fragment>
-        <header className="App-header">
-            <h1 className="App-title">{timelineData.person}</h1> 
-        </header>
-        <main className="App-main"><Timeline events={timelineData.events} /></main>
-    </React.Fragment>
+    <main><CatList list_o_cats={CATS_DATA.cats} /></main>
   );
 }
 

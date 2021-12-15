@@ -1,0 +1,24 @@
+{
+    "cats":[
+        {
+            "id": 1,
+            "name":"sleepy cat",
+            "link":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-photos-1593441022.jpg"
+        },
+        {
+            "id": 2,
+            "name":"rae's cat",
+            "link":"https://i.imgur.com/XU1PQKH.jpg"
+        },
+        {
+            "id": 3,
+            "name": "black cat",
+            "link":"https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg"
+        },
+        {
+            "id": 4,
+            "name": "cat in a mask",
+            "link": "https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg"
+        }
+    ]
+}
